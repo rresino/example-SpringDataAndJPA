@@ -12,6 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 @Repository
 public interface HomeDao extends CrudRepository<Home, Integer> {
 
-    public Home findByName(String name);
+    Home findByName(String name);
 
 }
